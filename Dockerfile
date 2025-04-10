@@ -4,5 +4,5 @@ COPY index.html /usr/local/apache2/htdocs/
 
 CMD ["httpd-foreground"]
 
-Expose port 80
+EXPOSE 80
 
